@@ -108,15 +108,12 @@ else
     exit 1
 fi
 
-cd $repoDir
-echo "Changed dir to $(pwd)"
-
 #### clean up before execution (precautionary) ########
 rm -f temp.log
 rm -f $commitsJsonFile
 
 ####### running git log command ########
-git log --remotes=origin --numstat --pretty=oneline --date=short -2 --format="authorName:%aN%nauthorEmail:%aE%nauthorDate:%ad%nhash:%H%nsubject:%s" | grep -v -e ^[[:space:]]*$ > temp.log
+git log --remotes=origin --numstat --pretty=oneline --date=short --format="authorName:%aN%nauthorEmail:%aE%nauthorDate:%ad%nhash:%H%nsubject:%s" | grep -v -e ^[[:space:]]*$ > temp.log
 
 ############### START: processing of git log output #############################
 currentCommitParams=()
@@ -154,9 +151,6 @@ addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
 
 ################## END: processing of git log out ###################################
 
-#######  displaying result info  ##########
-echo "Generated Json file : $commitsJsonFile"
-
 ###### generating repoCommits.json file ###########
 repoName="$( basename "$repoDir" )"
 repoJsonFile="${baseDir}/repoCommits.json"
@@ -170,9 +164,11 @@ cat "$commitsJsonFile" >> $repoJsonFile
 printf "\n\t]" >> $repoJsonFile
 printf "\n}\n" >> $repoJsonFile
 
+#######  displaying result info  ##########
+echo "Generated Json file : $repoJsonFile"
+
 ##### Removing temp.log file  #######
 rm -f temp.log
-
+rm -f $commitsJsonFile
 
 exit 0
-
