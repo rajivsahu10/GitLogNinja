@@ -1,0 +1,218 @@
+[
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "58e11c396992943bc0d03886495b21ba5281628a",
+	"subject" : "removing limit on the number of commits to be processed in git log command which was used for dry run",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "5",
+				"locDeleted" : "9",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "b8bf529a3794b92cf7259bef31b34c1fc6a490ae",
+	"subject" : "adding config to gitignore",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "0",
+				"srcFile" : ".gitignore",
+				"srcFileType" : "gitignore"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "8a216137dfeeef4a05e198fc8ace5e442df59e2e",
+	"subject" : "adding readme",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "15",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "81ea10fea558caf3099cd54439278276a575929c",
+	"subject" : "added exception handling for command line arguments",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "30",
+				"locDeleted" : "6",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "313c813dae0fec19ec3c822fd8c224718425b7fd",
+	"subject" : "added support for consolidated repoCommits.json file",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "132",
+				"locDeleted" : "130",
+				"srcFile" : "commits.json",
+				"srcFileType" : "json"
+			 } ,
+			{
+				"locAdded" : "23",
+				"locDeleted" : "10",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } ,
+			{
+				"locAdded" : "149",
+				"locDeleted" : "0",
+				"srcFile" : "repoCommits.json",
+				"srcFileType" : "json"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "b4ad2a582eef732f2b368c882f1789d67bd83ff3",
+	"subject" : "corrected source file names in json output and few other bugs",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "31",
+				"locDeleted" : "31",
+				"srcFile" : "commits.json",
+				"srcFileType" : "json"
+			 } ,
+			{
+				"locAdded" : "34",
+				"locDeleted" : "22",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "aab5fc6b99a9582d68193bf522ea49a891b7de38",
+	"subject" : "sample output of commits info",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "143",
+				"locDeleted" : "0",
+				"srcFile" : "commits.json",
+				"srcFileType" : "json"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "3b9fdd58041145ce2fa05277bc88a2408e5445ca",
+	"subject" : "updating code for git diff entries",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "36",
+				"locDeleted" : "25",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "291d186bb3bd13925e6915343109433cb6a7defe",
+	"subject" : "modified filename of script",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "118",
+				"srcFile" : "gitlog2csv.sh",
+				"srcFileType" : "sh"
+			 } ,
+			{
+				"locAdded" : "118",
+				"locDeleted" : "0",
+				"srcFile" : "gitlog2json.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "6c0d4385a8bb9cf58953180d8c6418ca89595635",
+	"subject" : "basic json generation is working",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "85",
+				"locDeleted" : "18",
+				"srcFile" : "gitlog2csv.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@gmail.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "629421add25251f88625db406740ef5cc8b6f790",
+	"subject" : "first draft of script to parse git log",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "51",
+				"locDeleted" : "0",
+				"srcFile" : "gitlog2csv.sh",
+				"srcFileType" : "sh"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Rajiv Sahu",
+	"authorEmail" : "rajivsahu10@users.noreply.github.com",
+	"authorDate" : "2018-01-28",
+	"hash" : "be27d3d1e67f24e072009f63e61c2458970a4b26",
+	"subject" : "Initial commit",
+	"repoName" : "GitLogNinja",
+	"diffStats" : [ 
+			{
+				"locAdded" : "22",
+				"locDeleted" : "0",
+				"srcFile" : ".gitignore",
+				"srcFileType" : "gitignore"
+			 } 
+		 ]
+	} 
+]

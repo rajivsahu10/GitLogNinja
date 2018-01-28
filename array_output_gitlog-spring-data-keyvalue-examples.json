@@ -1,0 +1,4058 @@
+[
+	{ 
+	"authorName" : "Christoph Strobl",
+	"authorEmail" : "cstrobl@gopivotal.com",
+	"authorDate" : "2014-05-26",
+	"hash" : "c9ee560ccea7ef367928d505d85d335d810728c1",
+	"subject" : "Add custom processor for date formatting. Add errors on signUp/signIn. Remove obsolete resources.",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "47",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.java.org.example.retwisj.Application.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.example.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "60",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.TweetDateProcessor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "18",
+				"srcFile" : "src.main.resources.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.templates.fragments.tweet.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "51",
+				"srcFile" : "src.main.resources.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "10",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.home.notSignedIn.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "34",
+				"srcFile" : "src.main.resources.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "19",
+				"srcFile" : "src.main.resources.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "22",
+				"srcFile" : "src.main.resources.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "14",
+				"srcFile" : "src.main.resources.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Christoph Strobl",
+	"authorEmail" : "cstrobl@gopivotal.com",
+	"authorDate" : "2014-05-26",
+	"hash" : "2bc316b7d34c8eeba3b785c15ff22137224703d4",
+	"subject" : "Added (un)following and status pages. Update notSignedInPage to show only signUp info. Fixed broken links.",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.example.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.static.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.templates.fragments.header.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "39",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.fragments.network.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.resources.templates.fragments.post.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.templates.fragments.tweet.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.resources.templates.home.home.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "16",
+				"srcFile" : "src.main.resources.templates.home.notSignedIn.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.home.status.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.resources.templates.home.timeline.html",
+				"srcFileType" : "html"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Christoph Strobl",
+	"authorEmail" : "cstrobl@gopivotal.com",
+	"authorDate" : "2014-05-23",
+	"hash" : "ecaba53f42bb4adac1bf78bacc9ff1dace7294fe",
+	"subject" : "added thymeleaf starter",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "0",
+				"srcFile" : "pom.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "37",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.example.retwisj.Application.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.example.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "30",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.static.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "36",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.static.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.static.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "280",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.static.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "38",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.fragments.footer.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "26",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.fragments.header.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.fragments.post.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "26",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.fragments.tweet.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "51",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.home.home.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "47",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.home.notSignedIn.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "28",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.home.timeline.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "11",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.index.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "23",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.layout.html",
+				"srcFileType" : "html"
+			 } ,
+			{
+				"locAdded" : "34",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "22",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "30",
+				"srcFile" : "static.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "36",
+				"srcFile" : "static.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "29",
+				"srcFile" : "static.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "280",
+				"srcFile" : "static.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "18",
+				"srcFile" : "templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "51",
+				"srcFile" : "templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "34",
+				"srcFile" : "templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "19",
+				"srcFile" : "templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "22",
+				"srcFile" : "templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "14",
+				"srcFile" : "templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Thomas Darimont",
+	"authorEmail" : "tdarimont@gopivotal.com",
+	"authorDate" : "2014-05-20",
+	"hash" : "7c1467da42d3fd313c25705d1636f140b038c56d",
+	"subject" : "Rebuild example with Spring Boot",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "70",
+				"locDeleted" : "0",
+				"srcFile" : "pom.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "16",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.Application.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "118",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "45",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "64",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "99",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "90",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.redis.KeyUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "383",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "64",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "47",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.NoSuchDataException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "220",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "161",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "80",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.example.retwisj.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.application.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "16",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "55",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "55",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_cn.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_en.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "55",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_es.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "55",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.redis.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "src.test.java.org.example.retwisj.ApplicationTests.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "30",
+				"locDeleted" : "0",
+				"srcFile" : "static.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "36",
+				"locDeleted" : "0",
+				"srcFile" : "static.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "static.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "280",
+				"locDeleted" : "0",
+				"srcFile" : "static.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "51",
+				"locDeleted" : "0",
+				"srcFile" : "templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "34",
+				"locDeleted" : "0",
+				"srcFile" : "templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "22",
+				"locDeleted" : "0",
+				"srcFile" : "templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "0",
+				"srcFile" : "templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@gopivotal.com",
+	"authorDate" : "2013-09-10",
+	"hash" : "4be5c0eb37828be65add4d83ece3fcce041db55e",
+	"subject" : "Upgrade to Spring Data Redis 1.1.0",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@gopivotal.com",
+	"authorDate" : "2013-09-02",
+	"hash" : "0d9dcbe3d1740a45fa578f8c2cb12f30e65eef2a",
+	"subject" : "Remove outdated links from READMEs",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@gopivotal.com",
+	"authorDate" : "2013-08-07",
+	"hash" : "8b277a91bf7f7abdf073d83eb1bc19af192379f1",
+	"subject" : "Upgrade to Spring Data Redis 1.0.6",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@gopivotal.com",
+	"authorDate" : "2013-08-07",
+	"hash" : "23601f9ab45629ddccc9bd2247bed804491a90f4",
+	"subject" : "Disable file logger",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@vmware.com",
+	"authorDate" : "2013-03-06",
+	"hash" : "072aef0f5f29a34892a39600f196a542fe2ae9e9",
+	"subject" : "Fix footer links",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@vmware.com",
+	"authorDate" : "2013-03-06",
+	"hash" : "5fa6fe8244e304b18363d4c2920a45939cfc6ddf",
+	"subject" : "Upgrade to spring-data-redis 1.0.3",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@vmware.com",
+	"authorDate" : "2013-03-06",
+	"hash" : "e95e628ce3d391e58897c375a5e1456f90f6b840",
+	"subject" : "Fix misspelled variable name",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@vmware.com",
+	"authorDate" : "2013-03-06",
+	"hash" : "deb6fb48662ed9c59b78822d1685139300fa9515",
+	"subject" : "Add eclipse-wtp plugin",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Jennifer Hickey",
+	"authorEmail" : "jhickey@vmware.com",
+	"authorDate" : "2013-03-06",
+	"hash" : "a8060df90c65e883c0ae5be5b2265fcac07a9c55",
+	"subject" : "Make gradlew executable",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "0",
+				"srcFile" : "gradlew",
+				"srcFileType" : "gradlew"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "ac9b1304a325ce516dd36d0fafd8200c7627c891",
+	"subject" : "update footer",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "986ea3783ec1c829b1bae42a2a9d09547c89688f",
+	"subject" : "add favicon",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "752ede78f1db1f8a72f782b7df76dbe623564881",
+	"subject" : "fix small typo",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "5e5de7d3a62203446d6e9a431104876b9d871aa6",
+	"subject" : "small adjustments",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "67bc89ab2fca8fe4174f541a803e86cc51cbdf92",
+	"subject" : "upgrade log4j/slf4j/springRedis/spring",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "a3990faf98262c2f99bd26349d5955a7573303bb",
+	"subject" : "refresh docbook",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "20",
+				"locDeleted" : "61",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "3",
+				"srcFile" : "docs.src.reference.docbook.index.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2013-02-08",
+	"hash" : "ceecaba265c089a85b9f2551d219f349f802b886",
+	"subject" : "update gradle wrapper to 1.2",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "gradle.wrapper.gradle-wrapper.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "58",
+				"srcFile" : "gradlew",
+				"srcFileType" : "gradlew"
+			 } ,
+			{
+				"locAdded" : "30",
+				"locDeleted" : "22",
+				"srcFile" : "gradlew.bat",
+				"srcFileType" : "bat"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2012-01-20",
+	"hash" : "cd42d0091200a2ddc4e6270291078b4e4db5e738",
+	"subject" : "improve handling of static resources",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.retwisj-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "31",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "30",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.static.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "36",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.static.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.static.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "280",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.static.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "30",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "36",
+				"srcFile" : "src.main.webapp.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "29",
+				"srcFile" : "src.main.webapp.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "280",
+				"srcFile" : "src.main.webapp.styles.screen.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-12-15",
+	"hash" : "d8d46056c3e76415245e9927d748b7c6f94be887",
+	"subject" : "+ upgrade to Spring Data Redis 1.0 GA and Spring Framework 3.1 GA",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-07-24",
+	"hash" : "5aa462a31de4d2e900142a7dffbbd908dc3db13c",
+	"subject" : "+ add default task",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "1",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-07-24",
+	"hash" : "dc41f4c26429da9886a8a8d6ea22e0a448951fcb",
+	"subject" : "+ remove debug statement",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-07-24",
+	"hash" : "b04ebfd60f5cad25fe8522ecc878990c6ed6792f",
+	"subject" : "+ update sample to Spring Redis 1.0 M4 and Spring 3.1 M2",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "2",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "9",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "gradle.wrapper.gradle-wrapper.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "16",
+				"locDeleted" : "16",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-06-03",
+	"hash" : "60e184d3a3117270e5ecab16b895dac55f50ad2a",
+	"subject" : "+ add link to blog post",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-27",
+	"hash" : "1ff7ffa76f15344e8a60d4262d8a0ffa33fa7cbb",
+	"subject" : "+ update docs",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-27",
+	"hash" : "dffa6d15dbe93a3c51b11b6f522ab19c455cf614",
+	"subject" : "+ update README",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-27",
+	"hash" : "7da6c950ef6035935083d936d3c86725c1cf98f9",
+	"subject" : "+ update docs",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-26",
+	"hash" : "9ad5f5258a79a559ab5b62ddcf4b2a3c7286ea62",
+	"subject" : "+ fix name inconsistency in the docs",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-21",
+	"hash" : "949486b45e263c8a2368d7f979dc3ef0d5ad4ec5",
+	"subject" : "+ eliminated unneeded dependency",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "2",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-15",
+	"hash" : "f3f914365ebc354583b89bd6d02c409a57ee9b07",
+	"subject" : "+ add missing repos to retwisj build",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-14",
+	"hash" : "f91562ec33e189cb5833f06afd035d728c0f677f",
+	"subject" : "+ add link to live instance",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-06",
+	"hash" : "dc3a8455110d1abf7d6c67c0fc441a659f0fb7d0",
+	"subject" : "+ some minor bug fixes + add in documentation + add dependency on Spring Data M3",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "9",
+				"locDeleted" : "3",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_cn.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_es.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "0c14e784ed764116f42f1b1e83c0ea0580559e86",
+	"subject" : "+ update readme",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "830f5771bbb3a389fd09601211962e9b5ae35eca",
+	"subject" : "+ fix inconsistency in the version",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "e4c11626e179a56c9e276b43492756b201dddd43",
+	"subject" : "+ add updated files",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "10",
+				"locDeleted" : "12",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "6",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "717d2b9bc434d328e38015cc24f7b6bf67217e19",
+	"subject" : "+ update readme",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "8261a03fcca1e782e030cfc059c93a17ee6d0ab2",
+	"subject" : "+ rename project",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "98",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "34",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.docbook.index.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "526",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.css.highlight.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "99",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.css.manual.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "449",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.fopdf.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "44",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight-fo.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "42",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "145",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "142",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html-single-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "107",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "221",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html_chunk.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "522",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.pdf-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "0",
+				"srcFile" : "gradle.wrapper.gradle-wrapper.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "168",
+				"locDeleted" : "0",
+				"srcFile" : "gradlew",
+				"srcFileType" : "gradlew"
+			 } ,
+			{
+				"locAdded" : "82",
+				"locDeleted" : "0",
+				"srcFile" : "gradlew.bat",
+				"srcFileType" : "bat"
+			 } ,
+			{
+				"locAdded" : "118",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "45",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "64",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "99",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "90",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.redis.KeyUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "386",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "65",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "47",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.NoSuchDataException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "218",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "163",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "80",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwisj.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_cn.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_en.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_es.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.redis.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nodata.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.oops.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "63",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "15",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "20",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "40",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.retwisj-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "50",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "34",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "22",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "135",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "30",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "36",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "280",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.screen.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "71847e8b6c3948e96af0f96e886affb8bf6af9e8",
+	"subject" : "rename project",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "17",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "98",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "34",
+				"srcFile" : "docs.src.reference.docbook.index.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "427",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "35",
+				"srcFile" : "docs.src.reference.resources.css.highlight.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "99",
+				"srcFile" : "docs.src.reference.resources.css.manual.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "449",
+				"srcFile" : "docs.src.reference.resources.xsl.fopdf.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "44",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight-fo.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "42",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "145",
+				"srcFile" : "docs.src.reference.resources.xsl.html-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "142",
+				"srcFile" : "docs.src.reference.resources.xsl.html-single-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "107",
+				"srcFile" : "docs.src.reference.resources.xsl.html.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "221",
+				"srcFile" : "docs.src.reference.resources.xsl.html_chunk.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "522",
+				"srcFile" : "docs.src.reference.resources.xsl.pdf-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "21",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "6",
+				"srcFile" : "gradle.wrapper.gradle-wrapper.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "168",
+				"srcFile" : "gradlew",
+				"srcFileType" : "gradlew"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "82",
+				"srcFile" : "gradlew.bat",
+				"srcFileType" : "bat"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "118",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "45",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "64",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "99",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "90",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.KeyUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "43",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.LongGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "398",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "65",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "47",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchDataException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "218",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "163",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "80",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "17",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "54",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "54",
+				"srcFile" : "src.main.resources.messages_cn.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.messages_en.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "54",
+				"srcFile" : "src.main.resources.messages_es.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "54",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.resources.redis.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "35",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "19",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nodata.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.oops.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "63",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "15",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "20",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "40",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "25",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "18",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "50",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "34",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "19",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "22",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "14",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "135",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "30",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "36",
+				"srcFile" : "src.main.webapp.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "29",
+				"srcFile" : "src.main.webapp.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "280",
+				"srcFile" : "src.main.webapp.styles.screen.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-05",
+	"hash" : "19e56d12505d19ff1aa299d26bb5f6a4e39b2e45",
+	"subject" : "+ add docbook to dependencies to solve a Gradle CL bug",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "d78ac2d8f6ba04abe6ca4dcc6dc32e763f35801b",
+	"subject" : "+ update docs",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "13",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "d8eb8bac84658332e117630ea416677bcaf2883f",
+	"subject" : "+ finished redis section",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "343",
+				"locDeleted" : "16",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "c6cedd706108584e08b137759ce5c29693015f2f",
+	"subject" : "+ add some text about data layout",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "63",
+				"locDeleted" : "3",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "47415a3ca4edb1c1fec8193b1bbc72bee5590926",
+	"subject" : "+ update build",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "3",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "1e4aa6fa507e2ae5b7042005bd9db1ea6cd5fbb8",
+	"subject" : "+ add docbook resources",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.css.highlight.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "99",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.css.manual.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "449",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.fopdf.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "44",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight-fo.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "42",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.highlight.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "145",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "142",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html-single-custom.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "107",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "221",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.html_chunk.xsl",
+				"srcFileType" : "xsl"
+			 } ,
+			{
+				"locAdded" : "522",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.resources.xsl.pdf-custom.xsl",
+				"srcFileType" : "xsl"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "ff3f4187bd05e2f4b6e6b25aa8115559e0ae958e",
+	"subject" : "+ add basic document structure",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "34",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.docbook.index.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "27",
+				"locDeleted" : "0",
+				"srcFile" : "docs.src.reference.docbook.retwisj.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-04-04",
+	"hash" : "dc25001da5328360c727ff4c8b627a50eb944268",
+	"subject" : "+ add docbook plugin (still not fully functional)",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "44",
+				"locDeleted" : "1",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-16",
+	"hash" : "ef3ea37c6a10a8bf338da282a9605c401f27e90e",
+	"subject" : "+ add Chinese translation",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_cn.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-16",
+	"hash" : "0b4fe8d033ec52743ee3d2622849cd5ccb43a300",
+	"subject" : "+ another minor UI update",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "5",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-16",
+	"hash" : "6df3340eca729c9ba23e1c213447be4de6a316c2",
+	"subject" : "+ more UI Updates",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "15",
+				"locDeleted" : "14",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-16",
+	"hash" : "6c2df7e39cbbc9babc863b069058484aa55272fd",
+	"subject" : "+ update styles + add spanish translation",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "54",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_es.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "7",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "15",
+				"locDeleted" : "13",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "9",
+				"locDeleted" : "53",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "84",
+				"locDeleted" : "69",
+				"srcFile" : "src.main.webapp.styles.screen.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-16",
+	"hash" : "0762fdb44e00fd7cde650230c3098a874b134307",
+	"subject" : "+ remove unneeded comments",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-15",
+	"hash" : "f4cc9e6bf314d6d79d10bb0a6d79b9c0afaf142a",
+	"subject" : "+ add follow/unfollow for mention page as well",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "6",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-14",
+	"hash" : "6c36c0889f79e1237d5c4e93cb76ae2cb23a923c",
+	"subject" : "+ fix pagination bug for timeline",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-14",
+	"hash" : "12e18b910f1a5d4a8caf79a0378b789eb61d821a",
+	"subject" : "+ change retwis name",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "31",
+				"locDeleted" : "31",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-14",
+	"hash" : "4c99d925528a4d2a9e391e5c5576ab25f8d83549",
+	"subject" : "+ add pagination",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "11",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-14",
+	"hash" : "165b9522cd7c509f1a8b6b6da449aee35f3906f2",
+	"subject" : "+eliminate extra space",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "8",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-14",
+	"hash" : "36ab1336432b1b4f0a4bd694dbb97201325ebc66",
+	"subject" : "tons of i18n improvements whole app is now supported in RO",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "26",
+				"locDeleted" : "15",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "12",
+				"locDeleted" : "13",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "42",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "39",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "9",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-11",
+	"hash" : "a014bc8baa76020429fe874bd9b8223d0ae99a2f",
+	"subject" : "+ disable debugging + various following/followers bug fixes + page improvements",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "5",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-11",
+	"hash" : "ac235777679900a3c68c74342852b3e4e36b5760",
+	"subject" : "+ store also/common followers set to use SORT/GET + improve custom CSS a bit",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "8",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.KeyUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-11",
+	"hash" : "5e7e065a4cb5d4e61b3a054c9f7a0af147a070f1",
+	"subject" : "+ eliminate more n+1 calls (for followers and following) + group all strings into one class to avoid proliferation of Strings + fix some links",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "82",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.KeyUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "44",
+				"locDeleted" : "39",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.oops.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-11",
+	"hash" : "2ccdfcdd4ef7ce30d226a1d66334f69af5c90372",
+	"subject" : "+ fix language link",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-11",
+	"hash" : "99cb855e4f3acd5716142580dde939fca9b0fafe",
+	"subject" : "+ arrange the CSS a bit (still far from perfect) + add RO messages (just for fun)",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_ro.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "18",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "9",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "9",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "20",
+				"locDeleted" : "17",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-10",
+	"hash" : "4bfee07a11a562026aae08a68e1d58bed7b30ab5",
+	"subject" : "+ several improvements + eliminated some of the n+1 calls through the new Sort/Get support in Spring Data",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "140",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "99",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "118",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "29",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.PostIdGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "99",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.LongGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "352",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "367",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RetwisRepository.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "33",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.TimestampGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "8",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchDataException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "23",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "10",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages_en.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nodata.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "38",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-04",
+	"hash" : "42bb762e28a03561710eb16920acde31887b3f1f",
+	"subject" : "+ add springsource logo",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-04",
+	"hash" : "1d6cdbf107aa4349a8ff1caaf8e6337ec1da534b",
+	"subject" : "+ added timeline for each user and followers update",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "23",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "7",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-04",
+	"hash" : "0d002560683b513fa5507ea6486c1faf83a8a89d",
+	"subject" : "+ eliminate debugging statements",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-04",
+	"hash" : "0c0edca1db5666feed84366542fe36d78663c7f3",
+	"subject" : "+ eliminated some pages + changed the workflow a bit so that anyone can see the timeline or messages w/o an account + fixed reply to in messages + add some CSS",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "6",
+				"locDeleted" : "53",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "63",
+				"locDeleted" : "46",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "10",
+				"locDeleted" : "27",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "40",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchDataException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "40",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchUserException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "32",
+				"locDeleted" : "17",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "151",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebPost.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "33",
+				"locDeleted" : "22",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nodata.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nouser.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.oops.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "13",
+				"locDeleted" : "27",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "8",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "43",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.uncaughtException.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "8",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "27",
+				"locDeleted" : "17",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "7",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.post.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "11",
+				"locDeleted" : "21",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "9",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "71",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.custom.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "36",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.ie.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.print.css",
+				"srcFileType" : "css"
+			 } ,
+			{
+				"locAdded" : "265",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.styles.screen.css",
+				"srcFileType" : "css"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-03",
+	"hash" : "1b2d64022059c8ce4a1a04c016b906e9a4487e44",
+	"subject" : "+ improve controller by getting rid of unneeded annotations + remove the use of ModelAndView with Model + refactored JSP pages by eliminating the redundant includes/excludes and using JSP fragments",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "7",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "23",
+				"locDeleted" : "33",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "19",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.dataAccessFailure.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "16",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.footer.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "31",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.header.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.includes.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "33",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.network.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nouser.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "27",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.posts.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "27",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.status.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "6",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.uncaughtException.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "13",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.userFollow.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "30",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "15",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.footer.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.header.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "33",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.network.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "27",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.posts.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "13",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.templates.userFollow.jspf",
+				"srcFileType" : "jspf"
+			 } ,
+			{
+				"locAdded" : "11",
+				"locDeleted" : "33",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-03",
+	"hash" : "b2267cd391cdfe95ae80fca939c1b9a9fda43daa",
+	"subject" : "+ add gradlew items",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "4",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "0",
+				"srcFile" : "gradle.wrapper.gradle-wrapper.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-03",
+	"hash" : "ce0b1574187466226d280187a0068a15c4d16e1b",
+	"subject" : "+ add inlining of @reply-ies",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "11",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.messages.properties",
+				"srcFileType" : "properties"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-02",
+	"hash" : "54a878dae94d317e32212a257342f8162e1f21a4",
+	"subject" : "+ add support for linking replies inside a post",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "39",
+				"locDeleted" : "14",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "80",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.TimeUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "81",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.WebUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.network.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.posts.jsp",
+				"srcFileType" : "jsp"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-02",
+	"hash" : "0d3ac32f9f73b42f2efb21361864baaaac76198e",
+	"subject" : "+ finish most functionality including following/followers/mentions",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "115",
+				"locDeleted" : "39",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "2",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchUserException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "40",
+				"locDeleted" : "15",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.header.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "12",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.mentions.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.network.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.posts.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "13",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.userFollow.jsp",
+				"srcFileType" : "jsp"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-03-01",
+	"hash" : "ff1c9da93da6bd24f4541052e26792895dbc6f24",
+	"subject" : "+ big chunk of improvements to the controller ~ main areas include authentication ~ page flow",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "55",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "66",
+				"locDeleted" : "36",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "8",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "40",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.NoSuchUserException.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "55",
+				"locDeleted" : "11",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "17",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.header.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "24",
+				"locDeleted" : "20",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.network.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "6",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.nouser.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "26",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.posts.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.timeline.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "14",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-28",
+	"hash" : "cb489a835337e842f49941eb2fd75a2b2faa50ba",
+	"subject" : "+ several improvements to the controller + make authentication and posting work + display data + refactored post information into a hash",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "133",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.Post.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "16",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "45",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.RetwisSecurity.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "48",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "5",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "25",
+				"locDeleted" : "21",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "80",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.TimeUtils.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "4",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "12",
+				"locDeleted" : "9",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-26",
+	"hash" : "343c3f8d1ae4f26151171f84e06b55444c4954de",
+	"subject" : "+ update gitignore",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "7",
+				"locDeleted" : "2",
+				"srcFile" : ".gitignore",
+				"srcFileType" : "gitignore"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "2859d2c49fb36341b8b184348ab53f692c33f431",
+	"subject" : "+ snapshot of current work basic operations in place - currently working on getting the auth process nicely in place",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "16",
+				"locDeleted" : "25",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.PostIdGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "35",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Range.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "0",
+				"locDeleted" : "31",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Twitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.LongGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "107",
+				"locDeleted" : "12",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "3",
+				"locDeleted" : "3",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.TimestampGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "63",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.CookieInterceptor.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "46",
+				"locDeleted" : "10",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "2",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "1",
+				"locDeleted" : "1",
+				"srcFile" : "src.main.resources.redis.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "26",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.home.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "12",
+				"locDeleted" : "12",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "8",
+				"locDeleted" : "11",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "4",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "ca2ed75bed25da352ac1d7217c0b03048c3fef18",
+	"subject" : "+ add some domain classes and controllers",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "93",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.User.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "29",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.PostIdGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "31",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.Twitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "45",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.LongGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "51",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.RedisTwitter.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "33",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.redis.TimestampGenerator.java",
+				"srcFileType" : "java"
+			 } ,
+			{
+				"locAdded" : "65",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.java.org.springframework.data.redis.samples.retwis.web.RetwisController.java",
+				"srcFileType" : "java"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "ca00fb11151447b4ef35dd0525b88afd9f64e649",
+	"subject" : "+ add some pages",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "16",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.log4j.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.resources.redis.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "19",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.dataAccessFailure.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "16",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.footer.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "14",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.header.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "5",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.includes.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "50",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.signin.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "48",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.jsp.uncaughtException.jsp",
+				"srcFileType" : "jsp"
+			 } ,
+			{
+				"locAdded" : "109",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.retwis-servlet.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.spring.applicationContext-redis.xml",
+				"srcFileType" : "xml"
+			 } ,
+			{
+				"locAdded" : "157",
+				"locDeleted" : "0",
+				"srcFile" : "src.main.webapp.WEB-INF.web.xml",
+				"srcFileType" : "xml"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "970ee6eb49b49fd8449e150258d8abb4080815bf",
+	"subject" : "+ update dependencies",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "7",
+				"locDeleted" : "2",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "7d5421e5c258e117a90df3fff400cc029c33692d",
+	"subject" : "+ add war task",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "3",
+				"locDeleted" : "1",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "0e810b29dd7b21f8e0b8946006a8cc4b98f8f728",
+	"subject" : "add basic readme",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "17",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-25",
+	"hash" : "eacb49f4bc34bd6ff98e054d1a1b1a7dcf7c9237",
+	"subject" : "+ add gradle files",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "45",
+				"locDeleted" : "0",
+				"srcFile" : "build.gradle",
+				"srcFileType" : "gradle"
+			 } ,
+			{
+				"locAdded" : "21",
+				"locDeleted" : "0",
+				"srcFile" : "gradle.properties",
+				"srcFileType" : "properties"
+			 } ,
+			{
+				"locAdded" : "168",
+				"locDeleted" : "0",
+				"srcFile" : "gradlew",
+				"srcFileType" : "gradlew"
+			 } ,
+			{
+				"locAdded" : "82",
+				"locDeleted" : "0",
+				"srcFile" : "gradlew.bat",
+				"srcFileType" : "bat"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-24",
+	"hash" : "d9c8c73712cb6184fc02e9c143ed8dccf56a8f30",
+	"subject" : "+ add main git ignore",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "2",
+				"locDeleted" : "0",
+				"srcFile" : ".gitignore",
+				"srcFileType" : "gitignore"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-24",
+	"hash" : "691159e579a613fe91a04db2133befc6fb3aeb22",
+	"subject" : "+ renamed readme to .md",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "0",
+				"locDeleted" : "18",
+				"srcFile" : "README",
+				"srcFileType" : "README"
+			 } ,
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "README.md",
+				"srcFileType" : "md"
+			 } 
+		 ]
+	} , 
+	{ 
+	"authorName" : "Costin Leau",
+	"authorEmail" : "cleau@vmware.com",
+	"authorDate" : "2011-02-24",
+	"hash" : "39a8fe1110734d44959ee200d0c3ec7a04273ed0",
+	"subject" : "initial readme commit",
+	"repoName" : "spring-data-keyvalue-examples",
+	"diffStats" : [ 
+			{
+				"locAdded" : "18",
+				"locDeleted" : "0",
+				"srcFile" : "README",
+				"srcFileType" : "README"
+			 } 
+		 ]
+	} 
+]
