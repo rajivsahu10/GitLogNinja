@@ -39,10 +39,39 @@ addCurrentCommit(){
        fi
     done
    
-    printf "\n\t\"diffStats\" : [ "
-
-    printf "\n\t ]"
-
+    firstEntry=0
+    printf "\n\t\"diffStats\" : [ " >> $commitsJsonFile
+    for diffEntry in "${currentCommitDiffStats[@]}"
+    do 
+        echo "digit : $diffEntry"
+        locAdded=$(echo "$diffEntry" | cut -d$'\t' -f1)
+        #echo "locAdded[$locAdded]"
+        locDeleted=$(echo "$diffEntry" | cut -d$'\t' -f2)
+        #echo "locDeleted[$locDeleted]"
+        srcFile=$( echo "$diffEntry" | cut -d$'\t' -f3 | sed 's/\"//g' )
+        #echo "srcFile[$srcFile]"
+        srcFileType=$(echo "$srcFile" | sed 's/.*\.//')
+        #echo "srcFileType[$srcFileType]"  
+        
+        
+        if [ "$firstEntry" -eq 0 ]; then
+            ((++firstEntry))
+            printf "\n\t\t{" >>  $commitsJsonFile
+        else
+            printf ",\n\t\t{" >> $commitsJsonFile
+        fi
+        
+        printf "\n\t\t\"locAdded\" : \"$locAdded\"," >> $commitsJsonFile 
+        printf "\n\t\t\"locDeleted\" : \"$locDeleted\"," >> $commitsJsonFile
+        printf "\n\t\t\"srcFile\" : \"$srcFile\"," >> $commitsJsonFile
+        printf "\n\t\t\"srcFileType\" : \"$srcFileType\"" >> $commitsJsonFile
+        printf "\n\t\t } " >> $commitsJsonFile
+        
+    done
+    # end of diff array
+    printf "\n\t\t ]" >> $commitsJsonFile
+    
+    # end of response
     printf "} " >> $commitsJsonFile
 }
 
@@ -50,7 +79,7 @@ addCurrentCommit(){
 ########### main flow  ##############
 
 cd $repoDir
-echo "Changed dir to ${pwd}"
+echo "Changed dir to $(pwd)"
 
 #echo "command to execute : $cmd_gitlog"
 #logOutput="`$cmd_gitlog`"
@@ -69,15 +98,10 @@ isDone=false
 until $isDone
 do
     read line || isDone=true
- 
-    #echo "--------------------------------------"
+    
     if [[ $line =~ ^[[:alpha:]] ]]; then
-      
       #echo "alpha : $line"
       key=$( echo $line | sed 's/:.*//' | sed 's/\"//g' )
-      #echo "key[$key]" >> commits.log
-      #value=$( echo $line | sed 's/^[^:]*://' | sed 's/\"//g' )
-      #echo "value[$value]"
       if [ "$key" == "AuthorName" ]; then
           if [ "$commitCount" -gt 0 ]; then
               addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
@@ -89,16 +113,7 @@ do
       currentCommitParams+=("$line")                  
 
     elif [[ $line =~ ^[[:digit:]] ]]; then
-      #echo "digit : $line"
-      #locAdded=$(echo "$line" | cut -d$'\t' -f1)
-      #echo "locAdded[$locAdded]"
-      #locDeleted=$(echo "$line" | cut -d$'\t' -f2)
-      #echo "locDeleted[$locDeleted]"
-      #srcFile=$( echo "$line" | cut -d$'\t' -f3 | sed 's/\"//g' )
-      #echo "srcFile[$srcFile]"
-      #srcFileType=$(echo "$srcFile" | sed 's/.*\.//')
-      #echo "srcFileType[$srcFileType]"
-      currentCommitDiffStats+=($line)
+      currentCommitDiffStats+=("$line")
     else
       echo "@Rajiv : invalid line"
     fi
@@ -109,10 +124,6 @@ addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
 # Removing temp.log file
 rm -f temp.log
 
-
-
-echo "-----------  --------------  -----------  -----------  -------------"
-echo "$logOutput"
 
 exit 0
 
