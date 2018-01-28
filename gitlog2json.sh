@@ -83,7 +83,7 @@ printError(){
 }
 
 ########### main flow  ##############
-
+SECONDS=0
 baseDir="$(pwd)"
 repoDir=$1
 RED='\033[0;31m'
@@ -153,7 +153,7 @@ addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
 
 ###### generating repoCommits.json file ###########
 repoName="$( basename "$repoDir" )"
-repoJsonFile="${baseDir}/repoCommits.json"
+repoJsonFile="${baseDir}/output_gitlog-${repoName}.json"
 echo "repoName[$repoName]"
 echo "repoFile[$repoJsonFile]"
 
@@ -171,4 +171,9 @@ echo "Generated Json file : $repoJsonFile"
 rm -f temp.log
 rm -f $commitsJsonFile
 
+####### PRINTING  EXECUTION TIME ########
+ELAPSED="$(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+printError "\n\n\n\t\tExecution Time [$ELAPSED] \n\n\n"
+
 exit 0
+
