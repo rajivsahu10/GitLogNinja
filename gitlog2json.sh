@@ -1,11 +1,6 @@
 
 #set -xv
 
-baseDir="$(pwd)"                                                                                                                                                                       
-repoDir='/home/rajiv/gitNinja/sampleRepos/spring-data-keyvalue-examples'
-commitsJsonFile="${baseDir}/commits.json"
-echo "RepoDir=${repoDir}"
-echo "baseDir=${baseDir}"
 
 #########  functions ##########
 
@@ -81,8 +76,37 @@ addCurrentCommit(){
     printf "\n\t} " >> $commitsJsonFile
 }
 
+printError(){
+  RED='\033[0;31m'
+  NC='\033[0m'  
+  echo -e "${RED}$1${NC}"
+}
 
 ########### main flow  ##############
+
+baseDir="$(pwd)"
+repoDir=$1
+RED='\033[0;31m'
+
+commitsJsonFile="${baseDir}/commits.json"
+echo "RepoDir=${repoDir}"
+echo "baseDir=${baseDir}"
+
+if [[ ! "$repoDir" =~ ^\/.* ]]; then
+    printError "\n\n\t\tThe provided location[$1] is not a full path"
+    printError "\n\t\tTry again.\n\n."
+    exit 1
+fi
+
+gitMetaDir="${repoDir}/.git"
+if [ -d "$gitMetaDir"  ]; then
+    cd $repoDir
+    echo "Changed dir to $(pwd)"    
+else 
+    printError "\n\n\t\tThe provided location[$repoDir] is not a valid git repo"
+    printError "\n\t\tTry again.\n\n."
+    exit 1
+fi
 
 cd $repoDir
 echo "Changed dir to $(pwd)"
@@ -134,7 +158,7 @@ addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
 echo "Generated Json file : $commitsJsonFile"
 
 ###### generating repoCommits.json file ###########
-repoName="$( echo "$repoDir" | sed 's/.*\///' )"
+repoName="$( basename "$repoDir" )"
 repoJsonFile="${baseDir}/repoCommits.json"
 echo "repoName[$repoName]"
 echo "repoFile[$repoJsonFile]"
