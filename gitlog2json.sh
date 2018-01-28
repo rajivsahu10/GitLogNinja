@@ -18,9 +18,9 @@ addCurrentCommit(){
     #echo "commit log path = $commitsJsonFile"
      
     if [ " $commitCount" -gt 1 ]; then
-        printf ", \n{ " >> $commitsJsonFile
+        printf ", \n\t{ " >> $commitsJsonFile
     else 
-        printf "\n{ " >> $commitsJsonFile 
+        printf "\n\t{ " >> $commitsJsonFile 
     fi
 
     #firstEntry=0
@@ -62,23 +62,23 @@ addCurrentCommit(){
         
         if [ "$firstEntry" -eq 0 ]; then
             ((++firstEntry))
-            printf "\n\t\t{" >>  $commitsJsonFile
+            printf "\n\t\t\t{" >>  $commitsJsonFile
         else
-            printf ",\n\t\t{" >> $commitsJsonFile
+            printf ",\n\t\t\t{" >> $commitsJsonFile
         fi
         
-        printf "\n\t\t\"locAdded\" : \"$locAdded\"," >> $commitsJsonFile 
-        printf "\n\t\t\"locDeleted\" : \"$locDeleted\"," >> $commitsJsonFile
-        printf "\n\t\t\"srcFile\" : \"$srcFile\"," >> $commitsJsonFile
-        printf "\n\t\t\"srcFileType\" : \"$srcFileType\"" >> $commitsJsonFile
-        printf "\n\t\t } " >> $commitsJsonFile
+        printf "\n\t\t\t\t\"locAdded\" : \"$locAdded\"," >> $commitsJsonFile 
+        printf "\n\t\t\t\t\"locDeleted\" : \"$locDeleted\"," >> $commitsJsonFile
+        printf "\n\t\t\t\t\"srcFile\" : \"$srcFile\"," >> $commitsJsonFile
+        printf "\n\t\t\t\t\"srcFileType\" : \"$srcFileType\"" >> $commitsJsonFile
+        printf "\n\t\t\t } " >> $commitsJsonFile
         
     done
     # end of diff array
     printf "\n\t\t ]" >> $commitsJsonFile
     
     # end of response
-    printf "} " >> $commitsJsonFile
+    printf "\n\t} " >> $commitsJsonFile
 }
 
 
@@ -132,6 +132,19 @@ addCurrentCommit $currentCommitParams $currentCommitDiffStats $commitCount
 
 #######  displaying result info  ##########
 echo "Generated Json file : $commitsJsonFile"
+
+###### generating repoCommits.json file ###########
+repoName="$( echo "$repoDir" | sed 's/.*\///' )"
+repoJsonFile="${baseDir}/repoCommits.json"
+echo "repoName[$repoName]"
+echo "repoFile[$repoJsonFile]"
+
+printf "{" > $repoJsonFile
+printf "\n \"repoName\" : \"${repoName}\"," >> $repoJsonFile
+printf "\n \"commits\" : [" >> $repoJsonFile
+cat "$commitsJsonFile" >> $repoJsonFile
+printf "\n\t]" >> $repoJsonFile
+printf "\n}\n" >> $repoJsonFile
 
 ##### Removing temp.log file  #######
 rm -f temp.log

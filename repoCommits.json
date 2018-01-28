@@ -1,4 +1,6 @@
-
+{
+ "repoName" : "spring-data-keyvalue-examples",
+ "commits" : [
 	{ 
 	"authorName" : "Christoph Strobl",
 	"authorEmail" : "cstrobl@gopivotal.com",
@@ -143,3 +145,5 @@
 			 } 
 		 ]
 	} 
+	]
+}
