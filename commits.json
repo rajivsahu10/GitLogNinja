@@ -1,0 +1,143 @@
+
+{ 
+	"AuthorName" : "Christoph Strobl",
+	"AuthorEmail" : "cstrobl@gopivotal.com",
+	"AuthorDate" : "2014-05-26",
+	"hash" : "c9ee560",
+	"Subject" : "Add custom processor for date formatting. Add errors on signUp/signIn. Remove obsolete resources."
+	"diffStats" : [ 
+		{
+		"locAdded" : "47",
+		"locDeleted" : "8",
+		"srcFile" : "retwisj-reboot/src/main/java/org/example/retwisj/Application.java",
+		"srcFileType" : "java"
+		 } ,
+		{
+		"locAdded" : "1",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/java/org/example/retwisj/web/RetwisController.java",
+		"srcFileType" : "java"
+		 } ,
+		{
+		"locAdded" : "60",
+		"locDeleted" : "0",
+		"srcFile" : "retwisj-reboot/src/main/java/org/example/retwisj/web/TweetDateProcessor.java",
+		"srcFileType" : "java"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "18",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/footer.jspf",
+		"srcFileType" : "jspf"
+		 } ,
+		{
+		"locAdded" : "1",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/fragments/tweet.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "51",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/header.jspf",
+		"srcFileType" : "jspf"
+		 } ,
+		{
+		"locAdded" : "10",
+		"locDeleted" : "0",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/home/notSignedIn.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "34",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/network.jspf",
+		"srcFileType" : "jspf"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "19",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/post.jspf",
+		"srcFileType" : "jspf"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "22",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/posts.jspf",
+		"srcFileType" : "jspf"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "14",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/userFollow.jspf",
+		"srcFileType" : "jspf"
+		 } 
+		 ]} , 
+{ 
+	"AuthorName" : "Christoph Strobl",
+	"AuthorEmail" : "cstrobl@gopivotal.com",
+	"AuthorDate" : "2014-05-26",
+	"hash" : "2bc316b",
+	"Subject" : "Added (un)following and status pages. Update notSignedInPage to show only signUp info. Fixed broken links."
+	"diffStats" : [ 
+		{
+		"locAdded" : "1",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/java/org/example/retwisj/web/RetwisController.java",
+		"srcFileType" : "java"
+		 } ,
+		{
+		"locAdded" : "1",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/resources/static/styles/screen.css",
+		"srcFileType" : "css"
+		 } ,
+		{
+		"locAdded" : "2",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/fragments/header.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "39",
+		"locDeleted" : "0",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/fragments/network.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "3",
+		"locDeleted" : "3",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/fragments/post.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "2",
+		"locDeleted" : "1",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/fragments/tweet.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "7",
+		"locDeleted" : "4",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/home/home.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "0",
+		"locDeleted" : "16",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/home/notSignedIn.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "19",
+		"locDeleted" : "0",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/home/status.html",
+		"srcFileType" : "html"
+		 } ,
+		{
+		"locAdded" : "2",
+		"locDeleted" : "3",
+		"srcFile" : "retwisj-reboot/src/main/resources/templates/home/timeline.html",
+		"srcFileType" : "html"
+		 } 
+		 ]} 
