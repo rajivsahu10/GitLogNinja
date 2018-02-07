@@ -1,0 +1,38 @@
+GET /commitindex/commitIndexMapping/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        
+        {
+          "nested": {
+            "path": "diffStats",
+            "query": {
+              "bool": {
+                "must": [
+                  { "match": { 
+                      "diffStats.srcFileType": "java"
+                    }
+                    
+                  },
+                  {
+                    "match": {
+                      "diffStats.locDeleted": 1
+                    }   
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": 
+    {
+      "diffStats.locAdded": {
+        "order": "desc"
+      }
+    }
+   
+}
