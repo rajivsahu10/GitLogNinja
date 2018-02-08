@@ -1,0 +1,70 @@
+PUT /gitindex
+{
+    "mappings": {
+        "commitlog": {
+            "dynamic": false,
+            "properties": {
+                "authorDate": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss Z"
+                },
+                "authorEmail": {
+                    "type": "keyword"
+                },
+                "authorName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "hash": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "repoName": {
+                    "type": "keyword"
+                },
+                "subject": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "diffStats": {
+                    "type": "nested",
+                    "properties": {
+                        "locAdded": {
+                            "type": "long"
+                        },
+                        "locDeleted": {
+                            "type": "long"
+                        },
+                        "srcFile": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "srcFileType": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
