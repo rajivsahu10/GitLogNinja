@@ -114,7 +114,7 @@ rm -f temp.log
 rm -f $commitsJsonFile
 
 ####### running git log command ########
-git log --remotes=origin --numstat --pretty=oneline --date=short --format="authorName:%aN%nauthorEmail:%aE%nauthorDate:%ad%nhash:%H%nsubject:%s" | grep -v -e ^[[:space:]]*$ > temp.log
+git log --remotes=origin --numstat --pretty=oneline --date=iso8601 --format="authorName:%aN%nauthorEmail:%aE%nauthorDate:%ad%nhash:%H%nsubject:%s" | grep -v -e ^[[:space:]]*$ > temp.log
 
 ############### START: processing of git log output #############################
 currentCommitParams=()
